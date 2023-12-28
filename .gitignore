@@ -1,0 +1,24 @@
+# Ignore node_modules in all projects
+**/node_modules
+
+# Ignore Android build artifacts in all projects
+**/android/app/build
+
+# Ignore iOS build artifacts in all projects
+**/ios/Pods
+**/ios/build
+
+# Ignore logs in all projects
+**/logs
+*.log
+
+# Ignore VS Code settings in all projects
+**/.vscode
+
+# Ignore Gradle files in all projects
+**/.gradle
+
+# Ignore Android Studio files in all projects
+**/.idea
+**/*.iml
+**/local.properties
